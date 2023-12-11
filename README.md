@@ -1,5 +1,3 @@
-# fullstack_template
-
 - npm install
 - modify connection string
 - create database
