@@ -24,10 +24,21 @@ const App = ()=> {
           food.map((foodItem) => {
             return(
               <li key={foodItem.id}>
-                <div>
-                  
+                <h2>
                   {foodItem.name}
-                </div>
+                </h2>
+                <p>
+                  Calories: {foodItem.calories} kCal
+                </p>
+                <p>
+                  Protein: {foodItem.Protein}g
+                </p>
+                <p>
+                  Carbs: {foodItem.carbohydrate}g
+                </p>
+                <p>
+                  Fat: {foodItem.fat}g
+                </p>
               </li>
             );
           })
